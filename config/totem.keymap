@@ -3,13 +3,13 @@
 //                                                        ▄▀▀▀▄  ▄  ▄▀▀▀▄  ▄  ▄▀▀▀▄  █  ▄▀▀▀▄
 //                                                        █   █  █  █   █  █  █   █  █  █   █
 //                                                         ▀▀▀   █   ▀▀▀   █   ▀▀▀   ▀   ▀▀▀
-//                                                               █      ▄▄▄█▄▄▄    █   █  
+//                                                               █      ▄▄▄█▄▄▄    █   █
 //                                                               ▀      █  █  █     █▄█
 //                                                             ▀▀▀▀▀    █  █  █      ▀
 //                                                                      ▀  ▀  ▀
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-       
+
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -134,8 +134,8 @@ label= "NAVI"                              ;
 
                 &none       &kp HOME    &kp UP      &kp END     &kp PG_UP   &kp KP_MULTIPLY &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
                 &none       &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN   &kp KP_DIVIDE   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
-     &trans     &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &none           &kp DOT     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_EQUAL  &trans      
-                                        &trans      &trans      &trans          &trans      &kp KP_N0   &trans      
+     &trans     &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &none           &kp DOT     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_EQUAL  &trans
+                                        &trans      &trans      &trans          &trans      &kp KP_N0   &trans
                         >;
                 };
 
@@ -158,10 +158,10 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp LBKT    &kp RBKT    &kp EQUAL   &kp PIPE    &none           &kp GRAVE   &kp AMPS    &kp STAR    &none       &kp PLUS       
-                &kp LPAR    &kp RPAR    &kp UNDER   &kp SQT     &kp DQT         &none       &kp DLLR    &kp DLLR    &kp CARET   &kp MINUS 
-    &trans      &kp BSLH    &kp FSLH    &none       &none       &none           &none       &kp EXCL    &kp AT      &kp POUND   &kp BSLH   &trans         
-                                        &trans      &trans      &trans          &trans      &trans      &trans       
+                &kp LBKT    &kp RBKT    &kp EQUAL   &kp PIPE    &none           &kp GRAVE   &kp AMPS    &kp STAR    &none       &kp PLUS
+                &kp LPAR    &kp RPAR    &kp UNDER   &kp SQT     &kp DQT         &none       &kp DLLR    &kp DLLR    &kp CARET   &kp MINUS
+    &trans      &kp BSLH    &kp FSLH    &none       &none       &none           &none       &kp EXCL    &kp AT      &kp POUND   &kp BSLH   &trans
+                                        &trans      &trans      &trans          &trans      &trans      &trans
                         >;
                 };
 
@@ -175,7 +175,7 @@ label= "FUN"                               ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃   RESET   ┃ PRINT SCN ┃  INSERT   ┃ CAPSLOCK  ┃           ┃   ┃   VOL +   ┃    F7     ┃    F8     ┃    F9     ┃    F12    ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃  STUDIO   ┃  PREVIOUS ┃ PLAY/PAUSE┃    NEXT   ┃           ┃   ┃   MUTE    ┃    F4     ┃    F5     ┃    F6     ┃    F11    ┃
+//             ┃  Q          ┃  PREVIOUS ┃ PLAY/PAUSE┃    NEXT   ┃           ┃   ┃   MUTE    ┃    F4     ┃    F5     ┃    F6     ┃    F11    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃   SHIFT   ┃           ┃ BT PREV   ┃  BT CLEAR ┃  BT NEXT  ┃           ┃   ┃   VOL -   ┃    F1     ┃    F2     ┃    F3     ┃    F10    ┃  SHIFT    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -185,9 +185,9 @@ label= "FUN"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &sys_reset  &kp PSCRN   &kp INS     &kp CAPS    &none         &kp C_VOL_UP  &kp F7      &kp F8      &kp F9      &kp F12
-             &studio_unlock &kp C_PREV  &kp C_PP    &kp C_NEXT  &none         &kp C_MUTE    &kp F4      &kp F5      &kp F6      &kp F11  
-    &trans      &trans      &bt BT_PRV  &bt BT_CLR  &bt BT_NXT  &none         &kp C_VOL_DN  &kp F1      &kp F2      &kp F3      &kp F10     &trans         
-                                        &trans      &trans      &trans          &trans      &trans      &trans      
+             &kp Q &kp C_PREV  &kp C_PP    &kp C_NEXT  &none         &kp C_MUTE    &kp F4      &kp F5      &kp F6      &kp F11
+    &trans      &trans      &bt BT_PRV  &bt BT_CLR  &bt BT_NXT  &none         &kp C_VOL_DN  &kp F1      &kp F2      &kp F3      &kp F10     &trans
+                                        &trans      &trans      &trans          &trans      &trans      &trans
                         >;
                 };
 
@@ -212,8 +212,8 @@ label= "TVP 1"                             ;
 
                 &kp TAB     &kp I       &kp LC(LALT) &kp O      &kp LC(F20)     &none       &none       &none       &none       &none
                 &lt TVP2 L  &kp LEFT    &kp LALT    &kp RIGHT   &kp SPACE       &none       &none       &none       &none       &none
-    &kp J       &kp LSHFT   &kp LC(C)   &kp BSPC    &kp LC(V)   &kp LC(F19)     &none       &none       &none       &none       &none       &none        
-                                        &trans      &kp LC(F14) &kp LC(F13)     &none       &none       &none    
+    &kp J       &kp LSHFT   &kp LC(C)   &kp BSPC    &kp LC(V)   &kp LC(F19)     &none       &none       &none       &none       &none       &none
+                                        &trans      &kp LC(F14) &kp LC(F13)     &none       &none       &none
                         >;
                 };
 
@@ -237,9 +237,9 @@ label= "TVP 2"                             ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp LC(F18) &kp LS(I)  &kp LS(HOME) &kp LS(O)   &kp LS(F)       &trans      &kp F7      &kp F8      &kp F9      &kp F12
-                &trans      &kp LS(LEFT) &kp LC(F17) &kp LS(RIGHT) &kp RET      &trans      &kp F4      &kp F5      &kp F6      &kp F11  
-    &trans      &kp J       &kp LS(C)   &kp LC(F16) &kp LS(V)   &kp LC(F15)     &trans      &kp F1      &kp F2      &kp F3      &kp F10     &trans         
-                                        &trans      &kp LC(F12) &kp LC(F11)     &trans      &trans      &trans      
+                &trans      &kp LS(LEFT) &kp LC(F17) &kp LS(RIGHT) &kp RET      &trans      &kp F4      &kp F5      &kp F6      &kp F11
+    &trans      &kp J       &kp LS(C)   &kp LC(F16) &kp LS(V)   &kp LC(F15)     &trans      &kp F1      &kp F2      &kp F3      &kp F10     &trans
+                                        &trans      &kp LC(F12) &kp LC(F11)     &trans      &trans      &trans
                         >;
                 };
         };
