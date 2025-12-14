@@ -128,19 +128,19 @@
 
         NUM {
             bindings = <
-        &kp LBKT       &kp N7  &kp N8  &kp N9  &kp RBKT         &trans  &trans  &trans  &trans  &trans
-        &kp LS(COLON)  &kp N4  &kp N5  &kp N6  &kp EQUAL        &trans  &trans  &trans  &trans  &trans
-&trans  &kp GRAVE      &kp N1  &kp N2  &kp N3  &kp BSLH         &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans  &kp N0  &kp LS(TILDE)    &trans  &trans  &trans
+        &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT         &trans  &trans  &trans  &trans  &trans
+        &kp COLON  &kp N4  &kp N5  &kp N6  &kp EQUAL        &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH         &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans  &kp N0  &kp LS(TILDE)    &trans  &trans  &trans
             >;
         };
 
         SYM {
             bindings = <
-        &kp LS(LBRC)   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RBRC)     &trans  &trans  &trans  &trans  &trans
-        &kp SQT        &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)     &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(PIPE)     &trans  &trans  &trans  &trans  &trans  &trans
-                                     &kp LS(LPAR)   &kp LS(RPAR)   &kp LS(UNDER)    &trans  &trans  &trans
+        &kp LEFT_BRACE  &kp LS(AMPS)  &kp ASTRK        &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE    &trans  &trans  &trans  &trans  &trans
+        &kp SQT         &kp DOLLAR    &kp PERCENT      &kp CARET             &kp PLUS           &trans  &trans  &trans  &trans  &trans
+&trans  &kp TILDE       &kp EXCL      &kp LS(AT_SIGN)  &kp HASH              &kp LS(PIPE)       &trans  &trans  &trans  &trans  &trans  &trans
+                                      &kp LS(LPAR)     &kp LS(RPAR)          &kp MINUS          &trans  &trans  &trans
             >;
         };
 
