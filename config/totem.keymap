@@ -135,7 +135,7 @@
         NAV {
             bindings = <
         &trans  &mkp MB5  &mkp RCLK  &mkp LCLK  &trans    &trans  &trans    &trans    &trans  &trans
-        &trans  &mkp MB5  &mkp RCLK  &mkp LCLK  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+        &trans  &trans    &trans     &trans     &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
 &trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans    &trans    &trans  &trans     &trans
                           &trans     &trans     &trans    &trans  &trans    &trans
             >;
